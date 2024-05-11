@@ -93,9 +93,31 @@ int main()
 
         switch (choice)
         {
-            case 1:
+        case 1:
             cout << "Enter the value to push: ";
-            
+            cin >> value;
+            stack.push(value); // push the entered value onto the stack
+            break;
+
+        case 2:
+            if (!stack.isEmpty())
+            {
+                stack.pop();
+            }
+            else 
+            {
+                cout << "stack is empty. Cannot pop." << endl;
+            }
+            break;
+        
+        case 3: 
+            if (!stack.isEmpty())
+            {
+                stack.peek(); // get the value of the top element
+            }
+            else {
+                cout
+            }
         }
     }
 }
