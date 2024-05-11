@@ -48,4 +48,21 @@ class Stack
         top = top->next; // update the top pointer to the next mode
     }
 
+    // Peek/Top operation : retrieve the value of the tompost element without removing it
+    void peek() 
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
+        else 
+        {
+            Node* current = top;
+            while (current != NULL)
+            {
+                cout << current->
+            }
+        }
+    }
+
 };
